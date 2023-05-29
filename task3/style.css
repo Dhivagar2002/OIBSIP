@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.add-task {
+    margin-bottom: 20px;
+}
+
+.add-task input[type="text"] {
+    width: 70%;
+    padding: 5px;
+}
+
+.add-task button {
+    padding: 5px 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.completed-tasks {
+    margin-top: 20px;
+}
+
+.completed-tasks li {
+    text-decoration: line-through;
+}
